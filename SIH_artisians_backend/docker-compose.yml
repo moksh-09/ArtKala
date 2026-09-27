@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: artisan
+      POSTGRES_PASSWORD: artisan
+      POSTGRES_DB: artisan
+    ports:
+      - "5432:5432"
+    volumes:
+      - artisan_postgres_data:/var/lib/postgresql/data
+
+  neo4j:
+    image: neo4j:5-community
+    profiles: ["graph"]
+    environment:
+      NEO4J_AUTH: neo4j/artisan_graph
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - artisan_neo4j_data:/data
+      - artisan_neo4j_logs:/logs
+
+volumes:
+  artisan_postgres_data:
+  artisan_neo4j_data:
+  artisan_neo4j_logs:

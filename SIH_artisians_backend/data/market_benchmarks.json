@@ -1,0 +1,12 @@
+{
+  "dataset_name": "ARTISAN prototype benchmark comparables",
+  "dataset_status": "BENCHMARK_DEMO",
+  "last_updated": "2026-09-24",
+  "source_note": "Small prototype benchmark records for local testing. These are not a live market feed and must not be presented as live market prices.",
+  "observations": [
+    {"product": "Bamboo Basket", "category": "Home and utility", "craft": "Bamboo Craft", "material": "Bamboo", "price": 420, "unit": "piece", "observed_at": "2026-06-12", "source": "prototype_admin_benchmark", "is_demo_data": true},
+    {"product": "Bamboo Basket", "category": "Home and utility", "craft": "Bamboo Craft", "material": "Bamboo", "price": 480, "unit": "piece", "observed_at": "2026-07-19", "source": "prototype_admin_benchmark", "is_demo_data": true},
+    {"product": "Bamboo Basket", "category": "Home and utility", "craft": "Bamboo Craft", "material": "Bamboo", "price": 560, "unit": "piece", "observed_at": "2026-08-23", "source": "prototype_admin_benchmark", "is_demo_data": true},
+    {"product": "Bamboo Tray", "category": "Home and utility", "craft": "Bamboo Craft", "material": "Bamboo", "price": 390, "unit": "piece", "observed_at": "2026-08-10", "source": "prototype_admin_benchmark", "is_demo_data": true}
+  ]
+}

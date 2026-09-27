@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #FAF8F5;
+    --background-cream: #F4EFEA;
+    --card: #FFFFFF;
+    --foreground: #1C1917;
+    --foreground-muted: #78716C;
+    --foreground-dark: #141311;
+    
+    --primary-terracotta: #C85A32;
+    --primary-terracotta-hover: #B24E29;
+    --primary-terracotta-light: #F7EAE5;
+    
+    --accent-green: #3F5E4D;
+    --accent-green-hover: #334D3F;
+    --accent-green-light: #EBF1ED;
+
+    --sand: #E8DFD5;
+    --stone: #D6CEBE;
+    --warm-grey: #A8A29E;
+    
+    --border: #E8DFD5;
+    --border-light: #F0EAE1;
+    --radius-md: 0.75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 1.25rem;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Selection style */
+  ::selection {
+    background-color: #C85A32;
+    color: #FFFFFF;
+  }
+}
+
+/* Typography Utility Classes */
+.font-display {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.font-hindi {
+  font-family: var(--font-noto-hindi), system-ui, sans-serif;
+}
+
+.font-body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6CEBE;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C85A32;
+}
+
+/* Glassmorphism & Subtle Borders */
+.glass-header {
+  background-color: rgba(250, 248, 245, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.editorial-card {
+  background: #FFFFFF;
+  border: 1px solid #E8DFD5;
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card:hover {
+  border-color: #D6CEBE;
+  box-shadow: 0 12px 32px -8px rgba(28, 25, 23, 0.08);
+}

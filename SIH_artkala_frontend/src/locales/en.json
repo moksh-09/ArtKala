@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "ARTKALA",
+    "sub": "Sovereign Marketplace for Indian Artisans"
+  },
+  "nav": {
+    "shop": "Shop",
+    "categories": "Categories",
+    "artisans": "Artisans",
+    "business": "Business",
+    "search": "Search artisan crafts...",
+    "language": "Language",
+    "account": "Account",
+    "wishlist": "Wishlist",
+    "cart": "Cart",
+    "menu": "Menu"
+  },
+  "hero": {
+    "tag": "Sovereign Indian Craftsmanship",
+    "title": "Discover artisan-made products.",
+    "subtitle": "Explore the craft behind every product. Direct linkages from indigenous master artisans across India to contemporary homes and global commerce.",
+    "ctaExplore": "Explore products",
+    "ctaArtisan": "Sell with ARTKALA",
+    "provenanceBadge": "100% Verified Artisan Provenance"
+  },
+  "categories": {
+    "title": "Curated Craft Traditions",
+    "subtitle": "Explore master works across centuries of living heritage",
+    "bamboo": {
+      "name": "Bamboo & Cane",
+      "meta": "Assam & Northeast Clusters",
+      "count": "18+ Artisans"
+    },
+    "pottery": {
+      "name": "Terracotta & Pottery",
+      "meta": "Kutch & Bankura Red Clay",
+      "count": "24+ Artisans"
+    },
+    "textiles": {
+      "name": "Handloom & Textiles",
+      "meta": "Varanasi Silk & Maheshwari Weaves",
+      "count": "42+ Artisans"
+    },
+    "wood": {
+      "name": "Wood Carving & Inlay",
+      "meta": "Saharanpur & Channapatna Crafts",
+      "count": "15+ Artisans"
+    },
+    "brass": {
+      "name": "Dhokra & Metal Craft",
+      "meta": "Bastar Lost-Wax Castings",
+      "count": "19+ Artisans"
+    }
+  },
+  "featured": {
+    "tag": "Curated Catalogue",
+    "title": "Crafted by hand, rooted in identity.",
+    "subtitle": "Each piece carries the signature, lineage, and verifiable capability of its maker.",
+    "viewAll": "View all crafts",
+    "filterAll": "All Works",
+    "filterBamboo": "Bamboo Craft",
+    "filterPottery": "Ceramics & Clay",
+    "filterTextiles": "Handloom Weaves",
+    "filterMetal": "Bell Metal & Brass",
+    "emptyState": "No artisan products found in this category currently.",
+    "addToCart": "Add to cart",
+    "addedToCart": "Added to cart",
+    "viewProduct": "View product"
+  },
+  "artisanStory": {
+    "tag": "Artisan In Focus",
+    "name": "Rameshwar Kumbhar",
+    "craft": "Terracotta & Earthenware Sculptor",
+    "location": "Bishnupur, Bankura • West Bengal",
+    "story": "For over three generations, Rameshwar's family has turned alluvial riverbank clay into intricate terracotta sculptures. With ARTKALA's smart cataloging, his traditional pottery now reaches interior designers and conscious collectors without middlemen.",
+    "quote": "Our hands shape what our ancestors dreamed. Every urn holds the smell of Indian soil.",
+    "statsTradition": "45 Years",
+    "statsTraditionLabel": "Living Craft Practice",
+    "statsBatch": "350 units",
+    "statsBatchLabel": "Monthly Cluster Capacity",
+    "cta": "View artisan profile"
+  },
+  "business": {
+    "tag": "Institutional & Bulk Procurement",
+    "title": "Describe what your business needs.",
+    "subtitle": "From sustainable hospitality tableware to 2,000 corporate gift hampers, ARTKALA links procurement teams directly with verified artisan clusters.",
+    "exampleQuery": "“I need 500 handcrafted bamboo storage baskets with custom vegetable dye for an eco-resort within 30 days.”",
+    "inputPlaceholder": "Describe what you need in natural language or Hindi...",
+    "btnAnalyze": "Extract Requirements & Match Clusters",
+    "benefit1": "Explainable Matching",
+    "benefit1Desc": "Clear audit trails for capacity, lead time, and material compliance.",
+    "benefit2": "Cluster Fulfilment",
+    "benefit2Desc": "Distributed production schedules across co-operative artisan groups.",
+    "cta": "Explore Business Purchases"
+  },
+  "capabilityTwin": {
+    "tag": "Hunar Capability Twin",
+    "title": "Verifiable artisan capability, grounded in real evidence.",
+    "subtitle": "ARTKALA replaces subjective ratings with an evolving capability record. Every skill, technique, and production metric is anchored to observed workshop verification and fulfilled orders.",
+    "evidenceRecord": "Artisan Capability Dossier",
+    "attribute1": "Monthly Output Capacity",
+    "attribute1Val": "500 - 650 pieces/month",
+    "attribute1Proof": "Verified via historical batch dispatch records",
+    "attribute2": "Material Provenance",
+    "attribute2Val": "100% Solid Natural Rattan & Moso Bamboo",
+    "attribute2Proof": "Batch testing & raw material source verification",
+    "attribute3": "Quality Compliance Pass Rate",
+    "attribute3Val": "96.4% First-Pass QC",
+    "attribute3Proof": "Calculated from 18 institutional delivery inspects",
+    "learnMore": "Learn how the Capability Twin works"
+  },
+  "footer": {
+    "about": "ARTKALA is the sovereign marketplace and digital commerce platform empowering Indian artisans through AI-driven cataloging, fair pricing, and cluster-based market linkage.",
+    "marketplace": "Marketplace",
+    "allProducts": "All Products",
+    "featuredCrafts": "Featured Crafts",
+    "heritageTextiles": "Heritage Textiles",
+    "bambooCane": "Bamboo & Cane",
+    "business": "Business",
+    "bulkProcurement": "Bulk Procurement",
+    "clusterLinkage": "Cluster Linkage",
+    "institutionalBuyers": "Institutional Inquiries",
+    "artisans": "Artisans",
+    "joinArtkala": "Join as an Artisan",
+    "capabilityTwin": "Hunar Capability Twin",
+    "studioSuite": "Artisan Studio",
+    "support": "Support & Trust",
+    "provenancePolicy": "Provenance Standards",
+    "fairPriceAssurance": "Fair Price Assurance",
+    "contact": "Contact Directorate",
+    "copyright": "© 2026 ARTKALA. Smart India Hackathon PS SIH26090. All artisan identities protected."
+  }
+}
