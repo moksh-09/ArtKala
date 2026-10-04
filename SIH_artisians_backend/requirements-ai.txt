@@ -1,0 +1,26 @@
+# ==============================================================================
+# ARTISAN Platform — Full Local AI & Graph Optional Dependencies
+# Use: pip install -r requirements-ai.txt
+# ==============================================================================
+
+# Core backend dependencies
+-r requirements.txt
+
+# Local Speech-to-Text (ASR)
+faster-whisper>=1.0.0,<2.0.0
+
+# Deep Learning & Transformers (NLLB Translation: eng_Latn -> hin_Deva, etc.)
+torch>=2.3.0,<3.0.0
+transformers>=4.46.0,<5.0.0
+sentencepiece>=0.1.99,<0.3.0
+sentence-transformers>=3.0.0,<4.0.0
+
+# Local AI Image Background Removal & Segmentation
+rembg>=2.0.0,<3.0.0
+onnxruntime>=1.18.0,<2.0.0
+
+# Optional Hosted AI (OpenAI API compatibility)
+openai>=1.50.0,<2.0.0
+
+# Knowledge Graph (Neo4j Community)
+neo4j>=5.25.0,<7.0.0

@@ -123,7 +123,7 @@ export default function ArtisanProfilePage() {
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mb-12">
           <div className="relative overflow-hidden rounded-3xl bg-[#1C1917] text-white p-8 md:p-12 border border-stone-800 shadow-xl">
             <Image
-              src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1200&q=80"
+              src="/images/artisan-potter-hero.png"
               alt={artisan.name}
               fill
               className="object-cover opacity-25"

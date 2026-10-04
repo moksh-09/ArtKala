@@ -53,7 +53,7 @@ export default function RootLayout({
       className={`${inter.variable} ${cormorant.variable} ${notoSansDevanagari.variable}`}
       suppressHydrationWarning
     >
-      <body className="min-h-screen flex flex-col bg-[#FAF8F5] text-[#1C1917] antialiased selection:bg-[#C85A32] selection:text-white">
+      <body className="min-h-screen flex flex-col bg-[#FAFAF8] text-[#1A1816] antialiased selection:bg-[#C85A32] selection:text-white">
         <LanguageProvider>
           <CartProvider>
             <WishlistProvider>{children}</WishlistProvider>

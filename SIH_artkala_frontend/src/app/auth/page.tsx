@@ -46,10 +46,11 @@ export default function AuthPage() {
       {/* Left Column: Full-Height Artisan Photography & Heritage Narrative (Desktop) */}
       <div className="hidden lg:relative lg:col-span-6 lg:flex flex-col justify-between bg-[#1C1917] p-12 text-white overflow-hidden">
         <Image
-          src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=1400&q=80"
-          alt="Artisan Craft Studio"
+          src="/images/artisan-potter-hero.png"
+          alt="Indian Master Artisan Crafting Traditional Heritage Pottery"
           fill
           priority
+          quality={95}
           sizes="50vw"
           className="object-cover opacity-35"
         />

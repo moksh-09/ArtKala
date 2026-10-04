@@ -302,27 +302,27 @@ export function getProductDisplayImage(product: Product): string {
     combined.includes("bamboo") || combined.includes("basket") || combined.includes("cane") ||
     combined.includes("बांस") || combined.includes("बेंत") || combined.includes("टोकरी") || combined.includes("डलिया")
   ) {
-    return "https://images.unsplash.com/photo-1584589167171-541ce45f1eea?auto=format&fit=crop&w=1000&q=80";
+    return "https://images.unsplash.com/photo-1675081632939-5294f776dd75?auto=format&fit=crop&w=1000&q=80";
   }
   if (
     combined.includes("pottery") || combined.includes("ceramic") || combined.includes("clay") || combined.includes("terracotta") ||
     combined.includes("टेराकोटा") || combined.includes("मिट्टी") || combined.includes("मृदभांड") || combined.includes("कुम्हार") ||
     combined.includes("घड़ा") || combined.includes("सिरेमिक")
   ) {
-    return "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1000&q=80";
+    return "/images/artisan-potter-hero.png";
   }
   if (
     combined.includes("textile") || combined.includes("weave") || combined.includes("silk") || combined.includes("khadi") || combined.includes("saree") ||
     combined.includes("हथकरघा") || combined.includes("रेशम") || combined.includes("साड़ी") || combined.includes("सिल्क") ||
     combined.includes("वस्त्र") || combined.includes("दुपट्टा")
   ) {
-    return "https://images.unsplash.com/photo-1582533561751-ef6f6ab93a2e?auto=format&fit=crop&w=1000&q=80";
+    return "https://images.unsplash.com/photo-1759738101532-0c2726bf68af?auto=format&fit=crop&w=1000&q=80";
   }
   if (
     combined.includes("wood") || combined.includes("carv") || combined.includes("teak") ||
     combined.includes("काष्ठ") || combined.includes("लकड़ी") || combined.includes("नक्काशी")
   ) {
-    return "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1000&q=80";
+    return "https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?auto=format&fit=crop&w=1000&q=80";
   }
   if (
     combined.includes("brass") || combined.includes("metal") || combined.includes("dhokra") || combined.includes("bell") ||
@@ -331,8 +331,8 @@ export function getProductDisplayImage(product: Product): string {
     return "https://images.unsplash.com/photo-1590736969955-71cc94801759?auto=format&fit=crop&w=1000&q=80";
   }
 
-  // Guaranteed authentic pottery visual
-  return "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1000&q=80";
+  // Guaranteed authentic master artisan visual
+  return "/images/artisan-potter-hero.png";
 }
 
 // Localized Product Text Helpers: guarantees complete switch to Hindi when language === 'hi'

@@ -11,7 +11,7 @@ interface CraftVessel3DProps {
 }
 
 export function CraftVessel3D({
-  fallbackImageUrl = "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1000&q=80",
+  fallbackImageUrl = "/images/artisan-potter-hero.png",
   className = "",
 }: CraftVessel3DProps) {
   const containerRef = useRef<HTMLDivElement>(null);

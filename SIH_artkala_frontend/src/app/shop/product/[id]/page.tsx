@@ -278,7 +278,7 @@ export default function ProductDetailPage() {
                   className="object-cover object-center transition-all duration-300"
                   unoptimized={selectedImage.startsWith("data:") || selectedImage.startsWith("blob:")}
                   onError={() => {
-                    setSelectedImage("https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1000&q=80");
+                    setSelectedImage("/images/artisan-potter-hero.png");
                   }}
                 />
 

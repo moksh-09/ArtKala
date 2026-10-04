@@ -71,7 +71,7 @@ function ArtisanProductImage({
       className="object-cover"
       unoptimized={imgSrc.startsWith("data:") || imgSrc.startsWith("blob:")}
       onError={() => {
-        setImgSrc("https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=1000&q=80");
+        setImgSrc("/images/artisan-potter-hero.png");
       }}
     />
   );

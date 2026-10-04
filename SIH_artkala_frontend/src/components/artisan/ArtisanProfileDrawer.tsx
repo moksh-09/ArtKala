@@ -76,7 +76,7 @@ export function ArtisanProfileDrawer({
               <div className="flex items-center gap-4">
                 <div className="relative h-14 w-14 flex-shrink-0 overflow-hidden rounded-2xl border-2 border-[#C85A32] shadow-sm bg-[#FAF8F5]">
                   <Image
-                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+                    src="/images/artisan-potter-hero.png"
                     alt="Rameshwar Kumbhar"
                     fill
                     sizes="56px"
