@@ -55,6 +55,41 @@ Ensure you have the following installed on your machine:
 
 ---
 
+
+## 🧠 Enabling Local AI & LLM Models
+
+ARTISAN is built to operate with local, open-source AI models:
+
+### 1. English ⇄ Hindi Translation (NLLB)
+1. Install `pip install -r requirements-ai.txt`
+2. In `SIH_artisians_backend/.env`, set:
+   ```dotenv
+   ENABLE_LOCAL_TRANSLATION=true
+   TRANSLATION_MODEL=facebook/nllb-200-distilled-600M
+   ```
+3. The backend will automatically translate product titles, stories, and attributes into authentic Hindi Devanagari script.
+
+### 2. Multimodal Vision & Catalog Generation (Ollama Gemma 3:4b)
+1. Install Ollama from [ollama.com](https://ollama.com) (or `brew install ollama` on macOS).
+2. Download and run the model:
+   ```bash
+   ollama run gemma3:4b
+   ```
+3. In `SIH_artisians_backend/.env`, set:
+   ```dotenv
+   ENABLE_OLLAMA=true
+   OLLAMA_MODEL=gemma3:4b
+   OLLAMA_BASE_URL=http://localhost:11434
+   ```
+
+### 3. Speech-to-Text (Faster-Whisper)
+In `SIH_artisians_backend/.env`, set:
+```dotenv
+ENABLE_LOCAL_WHISPER=true
+WHISPER_MODEL=small
+```
+
+---
 ## 🚀 Quickstart Guide
 
 ### 1. Clone the Repository
@@ -99,7 +134,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-*(Optional: If you want to run local Speech-to-Text and NLLB Hindi Translation on your machine without cloud APIs):*
+*( run local Speech-to-Text and NLLB Hindi Translation on your machine without cloud APIs):*
 ```bash
 pip install -r requirements-ai.txt
 ```
@@ -152,40 +187,7 @@ Open your browser and visit: **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🧠 (Optional) Enabling Local AI & LLM Models
 
-ARTISAN is built to operate with local, open-source AI models:
-
-### 1. English ⇄ Hindi Translation (NLLB)
-1. Install `pip install -r requirements-ai.txt`
-2. In `SIH_artisians_backend/.env`, set:
-   ```dotenv
-   ENABLE_LOCAL_TRANSLATION=true
-   TRANSLATION_MODEL=facebook/nllb-200-distilled-600M
-   ```
-3. The backend will automatically translate product titles, stories, and attributes into authentic Hindi Devanagari script.
-
-### 2. Multimodal Vision & Catalog Generation (Ollama Gemma 3:4b)
-1. Install Ollama from [ollama.com](https://ollama.com) (or `brew install ollama` on macOS).
-2. Download and run the model:
-   ```bash
-   ollama run gemma3:4b
-   ```
-3. In `SIH_artisians_backend/.env`, set:
-   ```dotenv
-   ENABLE_OLLAMA=true
-   OLLAMA_MODEL=gemma3:4b
-   OLLAMA_BASE_URL=http://localhost:11434
-   ```
-
-### 3. Speech-to-Text (Faster-Whisper)
-In `SIH_artisians_backend/.env`, set:
-```dotenv
-ENABLE_LOCAL_WHISPER=true
-WHISPER_MODEL=small
-```
-
----
 
 ## 🧪 Testing the Complete Workflow
 
